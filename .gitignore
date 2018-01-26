@@ -10,7 +10,7 @@ composer.phar
 !/app/log/.gitkeep
 /app/Plugin/*
 !/app/Plugin/.gitkeep
-!/app/Plugin/CategoryContent/*
+!/app/Plugin/CategoryContent
 /app/template/*
 !/app/template/admin
 !/app/template/default

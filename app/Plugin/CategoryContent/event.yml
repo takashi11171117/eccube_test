@@ -1,0 +1,6 @@
+admin.product.category.index.initialize:
+    - [onAdminProductCategoryIndexInit, NORMAL]
+admin.product.category.index.complete:
+    - [onAdminProductCategoryIndexComplete, NORMAL]
+Product/list.twig:
+    - [onRenderProductList, NORMAL]
