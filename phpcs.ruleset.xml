@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset name="EC-CUBE">
+    <rule ref="PSR2" />
+
+    <file>./app</file>
+    <exclude-pattern>*/app/cache/*</exclude-pattern>
+</ruleset>
