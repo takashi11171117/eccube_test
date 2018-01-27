@@ -16,18 +16,6 @@ use Eccube\Plugin\AbstractPluginManager;
 
 class PluginManager extends AbstractPluginManager
 {
-
-    /**
-     * プラグインインストール時の処理
-     *
-     * @param $config
-     * @param Application $app
-     * @throws \Exception
-     */
-    public function install($config, Application $app)
-    {
-    }
-
     /**
      * プラグイン削除時の処理
      *
@@ -50,27 +38,4 @@ class PluginManager extends AbstractPluginManager
     {
          $this->migrationSchema($app, __DIR__.'/Resource/doctrine/migration', $config['code']);
     }
-
-    /**
-     * プラグイン無効時の処理
-     *
-     * @param $config
-     * @param Application $app
-     * @throws \Exception
-     */
-    public function disable($config, Application $app)
-    {
-    }
-
-    /**
-     * プラグイン更新時の処理
-     *
-     * @param $config
-     * @param Application $app
-     * @throws \Exception
-     */
-    public function update($config, Application $app)
-    {
-    }
-
 }

@@ -14,8 +14,4 @@ class CategoryContentServiceProvider implements ServiceProviderInterface
             return $app['orm.em']->getRepository('Plugin\CategoryContent\Entity\CategoryContent');
         });
     }
-
-    public function boot(BaseApplication $app)
-    {
-    }
 }
