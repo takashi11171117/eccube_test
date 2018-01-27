@@ -15,7 +15,7 @@ class Version20180106204400 extends AbstractMigration
         'Plugin\CategoryContent\Entity\CategoryContent',
     );
 
-    public function up(Schema $schema)
+    public function up()
     {
         // テーブルの生成
         $app = \Eccube\Application::getInstance();
